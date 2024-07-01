@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font: 400 20px 'Unbounded'
+}
+
+.app_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app_container header{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.app_buttons{
+    display: flex;
+    gap: 25px;
+    padding-top: 10px;
+}
+
+.app_button{
+    background: none;
+    width: 310px;
+    height: 45px;
+    cursor: pointer;
+    border: 1px solid #d9e3ff;
+    border-radius: 35px;
+}
+

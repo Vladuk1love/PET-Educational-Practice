@@ -1,0 +1,32 @@
+.vacancy_link{
+    text-decoration: none;
+    color: black;
+}
+
+.vacancy_container{
+    font-size: 15px;
+    width: 1000px;
+    max-height: 250px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 35px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(136, 190, 253, 0.57),
+    inset 0 -2px 5px 1px rgb(221, 227, 250),
+    inset 0 -1px 1px 3px rgb(208, 218, 255);
+    transition: all ease-in-out 0.2s;
+}
+
+.vacancy_container:hover{
+    scale: 1.02;
+}
+
+.vacancy_header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
