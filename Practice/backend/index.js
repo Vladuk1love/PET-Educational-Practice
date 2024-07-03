@@ -48,7 +48,6 @@ app.post('/vacancies', (req, res) => {
 })
 
 
-
 app.listen(5000, (error) => {
   if (error) {
     return console.log('Server Error: ', error)
